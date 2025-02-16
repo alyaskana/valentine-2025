@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Courier New";
-  src: url("./fonts/Courier New Bold.ttf") format("ttf");
+  src: url("./fonts/Courier New Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "Courier New";
-  src: url("./fonts/Courier New.ttf") format("ttf");
+  src: url("./fonts/Courier New.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-SemiBold.ttf") format("ttf");
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -73,6 +73,7 @@
   border-radius: 50px;
   display: inline-block;
   padding: 0 20px;
+  font-weight: 600;
 }
 
 .index-bg {
